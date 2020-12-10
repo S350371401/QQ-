@@ -1,0 +1,103 @@
+/* 头部 */
+.header {
+  height: 120px;
+}
+.header-image {
+  width: auto;
+  height: 120px;
+  background-size: auto 120px;
+  background-position: 50%;
+}
+.header-content {
+  display: flex;
+  background: #333333;
+  color: #424242;
+  height: 40px;
+  font-size: 12px;
+  line-height: 40px;
+}
+.header-content-menu {
+  display: flex;
+  margin-left: 20px;
+}
+.header-content-menu li {
+  margin: 0 8px;
+  color: #b0b0b0;
+}
+.header-content-my {
+  display: flex;
+  margin-left: 130px;
+}
+.header-content-my li {
+  color: #b0b0b0;
+  margin: 0 5px;
+}
+.header-content-my .active {
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  background: #424242;
+  margin-left: 22px;
+  display: flex;
+}
+.header-content-my .active:hover {
+  background: white;
+  color: #eb8484;
+}
+.header-content-my .icon-gouwuche {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px 0 15px;
+}
+.header-content-my-hidden {
+  height: 100px;
+  width: 250px;
+  top: 160px;
+  background: white;
+  position: absolute;
+  color: black;
+  right: 24px;
+  display: none;
+  line-height: 100px;
+  text-align: center;
+  box-shadow: 4px 0px 4px #c9c9c9,4px 0px 4px #c9c9c9 inset;
+}
+.header-content-my .active:hover .header-content-my-hidden {
+  display: block;
+}
+.header-1212 {
+  display: flex;
+  height: 100px;
+  line-height: 100px;
+  align-items: center;
+}
+.header-1212 li {
+  margin-right: 20px;
+}
+.header-1212 .logo {
+  height: 54px;
+  width: 54px;
+  background: #ff7733;
+  margin: 0 16px 0 26px;
+}
+.header-1212 .logo img {
+  width: 100%;
+  height: 100%;
+}
+.header-1212 .date {
+  width: 180px;
+  height: 54px;
+}
+.header-1212 .date img {
+  width: 100%;
+  height: 100%;
+}
+.header-1212-search {
+  width: 180px;
+  height: 50px;
+  border: 1px #b0b0b0 solid;
+  border-radius: 5px;
+}
+.header-1212 .search {
+ border-right: 1px #b0b0b0 solid;
+}
