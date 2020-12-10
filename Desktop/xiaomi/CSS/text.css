@@ -93,11 +93,25 @@
   height: 100%;
 }
 .header-1212-search {
-  width: 180px;
+  width: 300px;
   height: 50px;
   border: 1px #b0b0b0 solid;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
 }
-.header-1212 .search {
+.header-1212-search .search {
  border-right: 1px #b0b0b0 solid;
+ border: none;
+ text-align: center;
+ width: 250px;
+}
+.header-1212-search i {
+  height: 100%;
+  width: 50px;
+  border-left: 1px #b0b0b0 solid;
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
 }
